@@ -1,4 +1,4 @@
-package org.example.duoyi.xiaomi;
+package xiaomi;
 
 import java.util.Scanner;
 

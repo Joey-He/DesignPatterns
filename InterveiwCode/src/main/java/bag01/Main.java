@@ -1,4 +1,4 @@
-package org.example.duoyi.dp.bag01;
+package bag01;
 
 import java.util.Scanner;
 

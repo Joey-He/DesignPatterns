@@ -1,4 +1,4 @@
-package org.example.duoyi.meituan;
+package meituan;
 
 import java.util.Scanner;
 //代码解析 美团算法题
