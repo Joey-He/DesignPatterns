@@ -11,8 +11,6 @@ public class Main {
         int[] weigths = new int[n];  // 物品价值
         for (int i = 0; i < n; i++) {
             weigths[i] = scanner.nextInt();
-        }
-        for (int i = 0; i < n; i++) {
             values[i] = scanner.nextInt();
         }
         scanner.close();
