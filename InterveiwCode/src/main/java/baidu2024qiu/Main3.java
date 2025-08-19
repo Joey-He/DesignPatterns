@@ -1,4 +1,4 @@
-package org.example.interveiwcode.baidu2024qiu;
+package baidu2024qiu;
 import java.io.*;
 import java.util.*;
 

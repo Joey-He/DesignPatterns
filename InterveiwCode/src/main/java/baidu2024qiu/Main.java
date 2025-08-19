@@ -1,4 +1,4 @@
-package org.example.interveiwcode.baidu2024qiu;
+package baidu2024qiu;
 // 题目地址
 // https://kamacoder.com/problempage.php?pid=1357
 import java.util.Scanner;
