@@ -1,4 +1,4 @@
-package org.example.duoyi;
+package duoyi;
 
 import java.util.HashMap;
 import java.util.Map;
