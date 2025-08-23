@@ -1,11 +1,15 @@
-package graph.islands;
+package graph.islands.area;
 
 import java.util.Scanner;
+
 // 岛屿数量 -- dfs版本
-public class IslandsNumberBFS {
+public class IslandsAreaDFS {
     // 遍历方向
     static int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
+    static int count = 0;
+    static int result = 0;
     public static void dfs(int[][] island, int x, int y, boolean[][] visited){
+        count++;
         for(int k = 0; k < 4; k++){
             int newX = x + dir[k][0];
             int newY = y + dir[k][1];
@@ -29,16 +33,16 @@ public class IslandsNumberBFS {
                 visited[i][j] = false;
             }
         }
-        int ans = 0;
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(island[i][j] == 1 && visited[i][j] == false){
-                   ans++;
-                   visited[i][j] = true;
+                    count = 0;
+                    visited[i][j] = true;
                    dfs(island, i, j, visited);
+                   result = Math.max(count, result);;
                 }
             }
         }
-        System.out.println(ans);
+        System.out.println(result);
     }
 }
