@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_6;
+package org.example.duoyi.Structural_Patterns.DesignPatterns_6;
 // 结构型模式 -- 代理模式
 import java.util.Scanner;
 // 抽象主题

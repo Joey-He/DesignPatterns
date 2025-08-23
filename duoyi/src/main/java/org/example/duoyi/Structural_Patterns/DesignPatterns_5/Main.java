@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_5;
+package org.example.duoyi.Structural_Patterns.DesignPatterns_5;
 
 import java.util.Scanner;
 // 结构型模式 -- 适配器模式

@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_2;
+package org.example.duoyi.Creational_Pattern.DesignPatterns_2;
 
 import java.util.ArrayList;
 import java.util.List;

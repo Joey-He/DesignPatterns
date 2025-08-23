@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_8;
+package org.example.duoyi.Structural_Patterns.DesignPatterns_8;
 
 import java.util.Scanner;
 

@@ -1,10 +1,8 @@
-package org.example.duoyi.DesignPatterns_1;
+package org.example.duoyi.Creational_Pattern.DesignPatterns_1;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
 //私有的构造函数：防止外部代码直接创建类的实例
 //私有的静态实例变量：保存该类的唯一实例

@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_10;
+package org.example.duoyi.Behavioral_Patterns.DesignPatterns_10;
 // 行为模式 -- 观察者模式
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package org.example.duoyi.DesignPatterns_12;
+package org.example.duoyi.Behavioral_Patterns.DesignPatterns_12;
 // 行为模式 -- 状态模式
 
 import java.util.Scanner;
