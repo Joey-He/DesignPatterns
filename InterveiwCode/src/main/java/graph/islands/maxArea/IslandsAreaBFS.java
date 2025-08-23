@@ -1,4 +1,4 @@
-package graph.islands.area;
+package graph.islands.maxArea;
 
 
 import java.util.LinkedList;
@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 // 岛屿数量 -- bfs
-public class IslandsArea {
+public class IslandsAreaBFS {
     // 遍历方向
     static int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
     public static int bfs(int[][] island, int x, int y, boolean[][] visited){

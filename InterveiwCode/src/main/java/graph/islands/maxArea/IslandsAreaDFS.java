@@ -1,4 +1,4 @@
-package graph.islands.area;
+package graph.islands.maxArea;
 
 import java.util.Scanner;
 
